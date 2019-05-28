@@ -1,20 +1,19 @@
-# Практическая работа №6 "Алгоритмы сортировки 1"
+# Практическая работа №7 "Алгоритмы сортировки 2"
 <p>В каждом задании данной практики необходимо реализовать функцию сортировки массива целых чисел вида:</p>
-<a href="https://ibb.co/3c3GJWm"><img src="https://i.ibb.co/0r78wZy/1.png" alt="1" border="0"></a>
-<a href="https://ibb.co/vXMJfdx"><img src="https://i.ibb.co/8YQjGxD/2.png" alt="2" border="0"></a>
+<a href="https://ibb.co/mvgfqL1"><img src="https://i.ibb.co/SQGFnhW/2019-04-04-01-39-04.png" alt="2019-04-04-01-39-04" border="0"></a>
 
 ### Задание 1
 --------------
   - Считать количество элементов n.
   - Считать n целочисленных элементов.
-  - Отсортировать полученный массив сортировкой расчёской.
+  - Отсортировать полученный массив быстрой сортировкой.
   - Вывести отсортированный массив на экран через пробел.
 
 ### Задание 2
 --------------
   - Считать количество элементов n.
   - Считать n целочисленных элементов.
-  - Отсортировать полученный массив сортировкой Шелла.
+  - Отсортировать полученный массив пирамидальной сортировкой.
   - Вывести отсортированный массив на экран через пробел.
 
 ##  Ход работы
@@ -23,27 +22,23 @@
   2.  Файлы с кодом программы были скомпилированы с помощью следующих команд
 
 ```sh
-$ gcc 01_comb_sort.c -o 01 -lm
-$ gcc 02_shell_sort.c -o 02 -lm
+$ gcc 01_quick_sort.c -o 01
+$ gcc 02_heap_sort.c -o 02
 ```
   3.  Файлы были загружены на удалённый репозиторий:
 
 ```sh
-$ git checkout -b pr6
+$ git checkout -b pr7
 $ git add .
 $ git commit -m "added 2 files with README"
-$ git push -u origin pr6
+$ git push -u origin pr7
 ```
 ### Результаты работы программы
-<p><br>Первое задание:</br></p>
-<a href="https://ibb.co/MNkBMLK"><img src="https://i.ibb.co/0Jysh31/01.png" alt="01" border="0"></a>
+<a href="https://ibb.co/44JpjV0"><img src="https://i.ibb.co/tY3DbJ1/1.png" alt="1" border="0"></a>
 
-<p><br>Второе задание:</br></p>
-<a href="https://ibb.co/xHRqg84"><img src="https://i.ibb.co/gVBZWFn/02.png" alt="02" border="0"></a>
 
 ### Таблица
 |Ресурс|Ссылка|
 |-----|-----|
 |Dillinger|https://dillinger.io|
 |ImgBB|https://imgbb.com|
-|proglib.io|https://proglib.io/p/sort-algorithms/|
