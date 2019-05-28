@@ -1,52 +1,49 @@
-# Практическая работа №5 "Обход дерева"
-<p>Задания выполняются с использованием бинарного дерева поиска,реализованного в практике 4</p>
+# Практическая работа №6 "Алгоритмы сортировки 1"
+<p>В каждом задании данной практики необходимо реализовать функцию сортировки массива целых чисел вида:</p>
+<a href="https://ibb.co/3c3GJWm"><img src="https://i.ibb.co/0r78wZy/1.png" alt="1" border="0"></a>
+<a href="https://ibb.co/vXMJfdx"><img src="https://i.ibb.co/8YQjGxD/2.png" alt="2" border="0"></a>
 
 ### Задание 1
 --------------
-<a href="https://ibb.co/ngc7Vf1"><img src="https://i.ibb.co/BzZy7j6/2019-03-31-17-12-08.png" alt="2019-03-31-17-12-08" border="0"></a>
+  - Считать количество элементов n.
+  - Считать n целочисленных элементов.
+  - Отсортировать полученный массив сортировкой расчёской.
+  - Вывести отсортированный массив на экран через пробел.
 
 ### Задание 2
 --------------
-<a href="https://ibb.co/ZGtvLvy"><img src="https://i.ibb.co/2WmRnRX/2019-03-31-17-12-56.png" alt="2019-03-31-17-12-56" border="0"></a>
-
-### Задание 3
---------------
-<a href="https://ibb.co/DQf0sCf"><img src="https://i.ibb.co/gJZkHTZ/2019-03-31-17-14-02.png" alt="2019-03-31-17-14-02" border="0"></a>
-
+  - Считать количество элементов n.
+  - Считать n целочисленных элементов.
+  - Отсортировать полученный массив сортировкой Шелла.
+  - Вывести отсортированный массив на экран через пробел.
 
 ##  Ход работы
-  1.Для реализации различных способов обхода  бинарного дерева поиска были реализованы все необходимые функции
+  1.  Были реализованы алгоритмы сортировки, отсортированный массив для обоих заданий будет выводиться в порядке возрастания
   
-  *Для реализации прямого обхода дерева была использована структура стека
-  
-  2.Файлы с кодом программы были скомпилированы с помощью следующих команд
+  2.  Файлы с кодом программы были скомпилированы с помощью следующих команд
 
 ```sh
-$ gcc 01_binary_tree_traversal.c -o 01
-$ gcc 02_binary_tree_traversal.c -o 02
-$ gcc 03_binary_tree_traversal.c -o 03
+$ gcc 01_comb_sort.c -o 01 -lm
+$ gcc 02_shell_sort.c -o 02 -lm
 ```
-  3.Файлы были загружены на удалённый репозиторий:
+  3.  Файлы были загружены на удалённый репозиторий:
 
 ```sh
-$ git checkout -b pr5
+$ git checkout -b pr6
 $ git add .
-$ git commit -m "added 3 files with README"
-$ git push -u origin pr5
+$ git commit -m "added 2 files with README"
+$ git push -u origin pr6
 ```
 ### Результаты работы программы
-<p>Первое задание:</p>
-<a href="https://ibb.co/G0ZLJ0s"><img src="https://i.ibb.co/wRnXLRJ/1.png" alt="1" border="0"></a>
+<p><br>Первое задание:</br></p>
+<a href="https://ibb.co/MNkBMLK"><img src="https://i.ibb.co/0Jysh31/01.png" alt="01" border="0"></a>
 
-<p>Второе задание:</p>
-<a href="https://ibb.co/Br38Mv5"><img src="https://i.ibb.co/QCQswh3/2.png" alt="2" border="0"></a>
-
-<p>Третье задание:</p>
-<a href="https://ibb.co/7rG2776"><img src="https://i.ibb.co/MPRMqq3/3.png" alt="3" border="0"></a>
+<p><br>Второе задание:</br></p>
+<a href="https://ibb.co/xHRqg84"><img src="https://i.ibb.co/gVBZWFn/02.png" alt="02" border="0"></a>
 
 ### Таблица
 |Ресурс|Ссылка|
 |-----|-----|
 |Dillinger|https://dillinger.io|
 |ImgBB|https://imgbb.com|
-|Habr|https://habr.com/ru/post/144850|
+|proglib.io|https://proglib.io/p/sort-algorithms/|
